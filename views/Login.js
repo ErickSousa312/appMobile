@@ -59,7 +59,7 @@ export default function Login(props) {
     //Envio do formulário de login
     async function sendForm()
     {
-        let response=await fetch('http://192.168.0.104:3000/login',{
+        let response=await fetch('https://unsigneds.herokuapp.com/login',{
             method: 'POST',
             headers: {
                 Accept: 'application/json',

@@ -18,7 +18,7 @@ export default function FindAll({navigation}) {
     //Envio do formulário
     async function sendForm()
     {
-        const response=await fetch('http://192.168.0.104:3000/read',{
+        const response=await fetch('https://unsigneds.herokuapp.com/read',{
             method: 'POST',
             headers: {
                  Accept: 'application/json',
