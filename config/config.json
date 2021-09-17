@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "db_sms",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "bed79f97837119",
+    "password": "338cb196l",
+    "database": "heroku_0a0296443d1635f",
+    "host": "us-cdbr-east-04.cleardb.com",
+    "dialect": "mysql"
+  },
+
+  "origin": "Av. Paulista, 200 - São Paulo / SP"
+}
